@@ -1,0 +1,30 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 120px;
+    height: 300px;
+    padding: 10px;
+    border: 3px solid rgb(2, 0, 0);
+    margin-top: 10px;
+    display: flex;
+    flex-flow:  row wrap;
+  }
+  
+  .flex-start { 
+    align-content: stretch ; 
+  }
+  
+
+  .flex-item {
+    background: rgb(190, 54, 30);
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }

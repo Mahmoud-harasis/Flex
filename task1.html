@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/09f761adf7.js" crossorigin="anonymous"></script>
+<head>
+<style> 
+body {
+  background-color: lightgreen;
+}
+
+
+@media  (min-width:393px ) and (max-width:851px) {
+  body {
+    background-color: lightblue;
+  }
+  p{
+    background-color: brown;
+    color:white;
+  }
+}
+
+
+p:nth-child(4) {
+  background: rgb(172, 81, 11);
+}
+</style>
+</head>
+<body>
+    
+<p>Resize the browser window. When the width of this document is 600 pixels or less, the background-color is "lightblue", otherwise it is "lightgreen".</p>
+
+<div>
+  <p >This is some text.</p>
+  <p  class="fa-sharp fa-solid fa-house"></p>
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+</div>
+</body>
+</html>
